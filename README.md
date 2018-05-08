@@ -21,10 +21,10 @@ server {
 }
 server {
         listen       80;
-        server_name  www.cwlws.cn cwlws.cn;
-        root   "H:/wxapplication/back/cwlws/public";
-        location / {
-            index  index.html index.htm index.php;
+        server_name  www.cwlws.cn cwlws.cn;                                                       
+        root   "H:/wxapplication/back/cwlws/public";                                                           
+        location / {                                                      
+            index  index.html index.htm index.php;                                                     
             #autoindex  on;
         }
         location ~ \.php(.*)$ {
@@ -39,9 +39,9 @@ server {
 }
 server {
         listen       80;
-        server_name  www.backend.cn backend.cn;
-        root   "F:/wxapplication/back/cwlw/admin";
-        location / {
+        server_name  www.backend.cn backend.cn;                       
+        root   "F:/wxapplication/back/cwlw/admin";                            
+        location / {                  
             index  index.html index.htm index.php;
             #autoindex  on;
         }
