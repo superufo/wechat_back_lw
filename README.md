@@ -1,3 +1,6 @@
+劳务系统 的 php 后端 管理 和 api 接口
+
+
 server {
         listen       80;
         server_name  www.cwlw.cn cwlw.cn;
