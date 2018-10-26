@@ -1,7 +1,7 @@
-劳务系统 的 php 后端 管理 和 api 接口
-
-
+劳务系统 的 php 后端 管理 和 api 接口****
+- 
 server {
+
         listen       80;
         server_name  www.cwlw.cn cwlw.cn;
         root   "H:/wxapplication/back/cwlw/public";
@@ -19,7 +19,9 @@ server {
             include        fastcgi_params;
         }
 }
+
 server {
+
         listen       80;
         server_name  www.cwlws.cn cwlws.cn;                                                       
         root   "H:/wxapplication/back/cwlws/public";                                                           
@@ -37,7 +39,9 @@ server {
             include        fastcgi_params;
         }
 }
+
 server {
+
         listen       80;
         server_name  www.backend.cn backend.cn;                       
         root   "F:/wxapplication/back/cwlw/admin";                            
@@ -55,7 +59,9 @@ server {
             include        fastcgi_params;
         }
 }
+
 server {
+
         listen       80;
         server_name  vuedemo.net vuedemo.net;
         root   "E:/vuePro/musiccloudWebapp-master/dist";
